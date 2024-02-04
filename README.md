@@ -1,16 +1,33 @@
 ## Java assignment
 
-## Assignment1
+## src(Assignment1)
 
-The workspace contains two folders by default, where:
+The workspace contains two folders :
+## part1
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## part2
+input.java-
+This file consists of method named inputNumbers() which takes user input and then return them as array of doubles.
+calculator.java-
+This file consists of different methods used in main function for performing chosen operations.
+addition()-returns double addition of entered numbers
+subtraction()-returns double subtraction of entered numbers
+multiplication()-returns double multiplication of entered numbers 
+division()-returns double division of entered numbers
+square_root()-returns square root of entered numbers
+power()-returns power of entered base and exponent
+mean_variance()-input is taken until the user enters "end" and then mean and variance of input numbers is returned.
+operation.java-
+This the main file where user is asked for choice of numbers between (0-8) where
+0-exit
+1-addition
+2-subtraction
+3- multiplication
+4-division
+5-square root
+6-power
+7-mean and variance
+and then according to choice the chosen operation's method is called and desired result is diplayed using switch case.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
