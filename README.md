@@ -28,14 +28,23 @@ mean_variance()-input is taken until the user enters "end" and then mean and var
 
 3.operation.java-
 This the main file where user is asked for choice of numbers between (0-8) where
+
 0-exit
+
 1-addition
+
 2-subtraction
+
 3- multiplication
+
 4-division
+
 5-square root
+
 6-power
+
 7-mean and variance
+
 and then according to choice the chosen operation's method is called and desired result is diplayed using switch case.
 
 
