@@ -1,4 +1,4 @@
-package part1;
+package assignment1_part1;
 
 import java.io.BufferedReader;
 import java.io.IOException;
