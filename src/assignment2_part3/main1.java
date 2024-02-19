@@ -2,7 +2,7 @@ package assignment2_part3;
 import java.util.List;
 import java.util.Arrays;
 
-class main1 {
+public class main1 {
 
     public void convertArrayListToArray(List<Integer> arrayList) {
         int[] array = new int[arrayList.size()];
